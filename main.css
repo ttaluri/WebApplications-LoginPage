@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+.hero {
+    background-image: url('hero.png'); /* Ensure the image is in the correct path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-title {
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.login-form {
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: left;
+    
+}
+
+.login-form h2 {
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.login-form label {
+    display: block;
+    margin: 5px 0 4px;
+}
+
+.login-form input {
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    background-color: yellow;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    color: yellow;
+    margin-right: 4px ;
+    
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 4px ;
+}
+
+#submitBtn:hover {
+    background-color: lightgray;
+    color: rgb(93, 91, 91);
+    margin-right: 4px ;
+}
+
+#clearBtn:hover {
+    background-color: lightgray;
+    color: gray;
+    margin-left: 4px;
+}
+
